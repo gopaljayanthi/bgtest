@@ -65,7 +65,7 @@ repourl=$(git config --get remote.origin.url)
 
 echo application yaml from template
 sed -i "s/APP-NAME/$mydir/" application.yaml
-sed -i "s#REPO-YRL#$repourl#" application.yaml
+sed -i "s#GIT-REPO#$repourl#" application.yaml
 
 echo cleaning up
 rm -rf *.txt

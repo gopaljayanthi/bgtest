@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: freshbg
-    repoURL: GIT-REPO
+    repoURL: https://github.com/gopaljayanthi/bgtest.git
     targetRevision: HEAD
   syncPolicy:
     syncOptions:
